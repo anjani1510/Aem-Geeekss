@@ -51,7 +51,7 @@
                 <groupId>biz.aQute.bnd</groupId>
                 <artifactId>bnd-maven-plugin</artifactId>
                 <executions>
-                    <execution>
+          <!--   <execution>
                         <id>bnd-process</id>
                         <goals>
                             <goal>bnd-process</goal>
@@ -65,7 +65,8 @@ Bundle-DocURL:
 Sling-Test-Regexp: .*Test
                             ]]></bnd>
                         </configuration>
-                    </execution>
+                    </execution> -->
+                    
                 </executions>
             </plugin>
             <plugin>

@@ -1,0 +1,10 @@
+<sly data-sly-use.obj="com.aem.geeks.core.models.HeaderSling">
+    <div>Path Field:${obj.pathField}</div>
+    <div>Text Field:${obj.textField}</div>
+    <div>Check Box:${obj.checkBox}</div>
+    ***multiField******
+    <div data-sly-list.item="${obj.multiField}">
+      <p>Date Picker:${item.datePicker}</p>
+      <p>Text Field:${item.textField}</p>
+    </div>
+    </sly>

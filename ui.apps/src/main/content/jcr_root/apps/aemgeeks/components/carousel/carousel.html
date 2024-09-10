@@ -1,0 +1,14 @@
+<sly data-sly-use.obj="com.aem.geeks.core.models.CarouselModel">
+
+    <sly data-sly-list.item="${obj.carouselItems}">
+        <div>
+            <p>Text Field: ${item.text}</p>
+            <p>Path Field: ${item.path}</p>
+            
+            <div data-sly-list.nestedItem="${item.nestedItems}">
+                <p>Nested Text Field: ${nestedItem.nestedText}</p>
+            </div>
+        </div>
+    </sly>
+
+</sly>
