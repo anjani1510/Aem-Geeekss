@@ -1,0 +1,19 @@
+{
+    "jcr:primaryType": "nt:unstructured",
+    "jcr:createdBy": "admin",
+    "jcr:lastModifiedBy": "admin",
+    "textField": "first textfield",
+    "pathField": "/apps/Demo",
+    "jcr:created": "Fri Jul 26 2024 16:27:09 GMT+0530",
+    "jcr:lastModified": "Tue Sep 10 2024 11:39:17 GMT+0530",
+    "sling:resourceType": "aemgeeks/components/header",
+    "checkbox": "on",
+    "multifield": {
+      "jcr:primaryType": "nt:unstructured",
+      "item0": {
+        "jcr:primaryType": "nt:unstructured",
+        "textField": "second text field",
+        "datePicker": "Fri Jul 26 2024 00:00:00 GMT+0530"
+      }
+    }
+  }
